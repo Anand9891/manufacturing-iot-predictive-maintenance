@@ -1,6 +1,6 @@
 # Databricks notebook source
 storage_account_name = "myazurestorageanalytics"
-storage_account_key = "cMXFyIh5jvxhUSxYsFclZAVRX6hETV0MOmR03d2pMw3Phb6vPsWClEqRNGx9b6Unr2HZBjztEbm3+AStzBNJ/Q=="  # your actual key from Azure
+storage_account_key = ---------
 
 spark.conf.set(
     f"fs.azure.account.key.{storage_account_name}.dfs.core.windows.net",
